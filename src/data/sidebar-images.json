@@ -1,0 +1,22 @@
+[
+  {
+    "name": "profile",
+    "left": ["./leftSidebar/profileL.png"],
+    "right":[ "./rightSidebar/profileR.png"]
+  },
+  {
+    "name": "projects",
+    "left": ["./leftSidebar/applesL.png", "./leftSidebar/treeL.png", "./leftSidebar/windowL.png"],
+    "right":[ "./rightSidebar/applesR.png", "./rightSidebar/treeR.png", "./rightSidebar/windowR.png"]
+  },
+  {
+    "name": "skills",
+    "left": ["./leftSidebar/pathL.png", "./leftSidebar/pathwayL.png", "./leftSidebar/roadL.png"],
+    "right":[ "./rightSidebar/pathR.png", "./rightSidebar/pathwayR.png", "./rightSidebar/roadR.png"]
+  },
+  {
+    "name": "contacts",
+    "left": ["./leftSidebar/brownieL.png", "./leftSidebar/riverL.png"],
+    "right":[ "./rightSidebar/brownieR.png", "./rightSidebar/riverR.png"]
+  }
+]
