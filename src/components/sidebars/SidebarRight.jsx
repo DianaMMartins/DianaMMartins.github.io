@@ -1,5 +1,7 @@
 export const SidebarRight = () => {
-    return (
-        <h2>Image here</h2>
-    )
-}
+  return (
+    <section className="sidebar-right">
+      <h2>Image here</h2>
+    </section>
+  );
+};

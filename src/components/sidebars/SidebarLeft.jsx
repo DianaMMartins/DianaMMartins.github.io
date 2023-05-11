@@ -1,5 +1,7 @@
 export const SidebarLeft = () => {
-    return (
-        <h2>Image here</h2>
-    )
-}
+  return (
+    <section className="sidebar-left">
+      <img src="image" alt="sidebar"/>
+    </section>
+  );
+};
