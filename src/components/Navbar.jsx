@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { useState, useEffect, useMemo } from "react";
+import { useState } from "react";
 
 const linksData = [
   { path: "/about-me", label: "About me" },
