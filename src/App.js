@@ -11,19 +11,16 @@ import { Projects } from "./components/pages/Projects";
 import { Home } from "./components/Home/Home";
 
 function App() {
-  //know user window.location.pathname
-  //send info to navbar and sidebars
-
   return (
     <sections className="app">
       <SidebarLeft />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about-me" element={<AboutMe />} />
-        <Route path="projects" element={<Projects />} />
-        <Route path="skills" element={<Skills />} />
-        <Route path="contacts" element={<Contacts />} />
+        <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/projects" element={<Projects />} />
+        <Route path="/skills" element={<Skills />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
       <SidebarRight />
       <Footer />
