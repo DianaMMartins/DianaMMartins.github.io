@@ -12,7 +12,7 @@ import { Home } from "./components/Home/Home";
 
 function App() {
   return (
-    <sections className="app">
+    <section className="app">
       <SidebarLeft />
       <Navbar />
       <Routes>
@@ -24,7 +24,7 @@ function App() {
       </Routes>
       <SidebarRight />
       <Footer />
-    </sections>
+    </section>
   );
 }
 

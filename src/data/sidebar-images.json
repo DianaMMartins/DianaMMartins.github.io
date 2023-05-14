@@ -1,6 +1,6 @@
 [
   {
-    "path": "/profile",
+    "path": "/about-me",
     "left": ["./leftSidebar/profileL.png"],
     "right":[ "./rightSidebar/profileR.png"]
   },

@@ -1,7 +1,9 @@
+import { SidebarImages } from "./SidebarImgs";
+
 export const SidebarLeft = () => {
   return (
     <section className="sidebar-left">
-      <img src="image" alt="sidebar"/>
+      <SidebarImages side={"left"} />
     </section>
   );
 };
