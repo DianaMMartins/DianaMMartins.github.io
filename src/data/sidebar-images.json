@@ -1,22 +1,22 @@
 [
   {
     "path": "/about-me",
-    "left": ["./leftSidebar/profileL.png"],
-    "right":[ "./rightSidebar/profileR.png"]
+    "left": ["/leftSidebar/profileL.png"],
+    "right":[ "/rightSidebar/profileR.png"]
   },
   {
     "path": "/projects",
-    "left": ["./leftSidebar/applesL.png", "./leftSidebar/treeL.png", "./leftSidebar/windowL.png"],
-    "right":[ "./rightSidebar/applesR.png", "./rightSidebar/treeR.png", "./rightSidebar/windowR.png"]
+    "left": ["/leftSidebar/applesL.png", "/leftSidebar/treeL.png", "/leftSidebar/windowL.png"],
+    "right":[ "/rightSidebar/applesR.png", "/rightSidebar/treeR.png", "/rightSidebar/windowR.png"]
   },
   {
     "path": "/skills",
-    "left": ["./leftSidebar/pathL.png", "./leftSidebar/pathwayL.png", "./leftSidebar/roadL.png"],
-    "right":[ "./rightSidebar/pathR.png", "./rightSidebar/pathwayR.png", "./rightSidebar/roadR.png"]
+    "left": ["/leftSidebar/pathL.png", "/leftSidebar/pathwayL.png", "/leftSidebar/roadL.png"],
+    "right":[ "/rightSidebar/pathR.png", "/rightSidebar/pathwayR.png", "/rightSidebar/roadR.png"]
   },
   {
     "path": "/contacts",
-    "left": ["./leftSidebar/brownieL.png", "./leftSidebar/riverL.png"],
-    "right":[ "./rightSidebar/brownieR.png", "./rightSidebar/riverR.png"]
+    "left": ["/leftSidebar/brownieL.png", "/leftSidebar/riverL.png"],
+    "right":[ "/rightSidebar/brownieR.png", "/rightSidebar/riverR.png"]
   }
 ]

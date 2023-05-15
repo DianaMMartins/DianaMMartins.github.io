@@ -8,7 +8,7 @@ import "./App.css";
 import { Contacts } from "./components/pages/Contacts";
 import { Skills } from "./components/pages/Skills";
 import { Projects } from "./components/pages/Projects";
-import { Home } from "./components/Home/Home";
+import { Home } from "./components/pages/Home";
 
 function App() {
   return (

@@ -1,13 +1,21 @@
+import svgs from "../../data/skills.json";
+
 export const Skills = () => {
-    return (
-      <section className="page">
-        <h2>Skills</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, enim
-          quasi? Eos rem aut officia dicta quos magni molestiae? Quos natus,
-          incidunt quis exercitationem repellat temporibus asperiores nisi totam
-          earum.
-        </p>
-      </section>
-    );
-  };
+  return (
+    <section className="page scrollbox">
+      <h2>Skills</h2>
+      <ul className="scrollbox-inner">
+        {svgs.map((imageObj) => {
+          return (
+            <li key={imageObj.name}>
+              <img
+                src={require(`../../data/images/svgSkills${imageObj.url}`)}
+                alt={imageObj.name}
+              />
+            </li>
+          );
+        })}
+      </ul>
+    </section>
+  );
+};

@@ -33,7 +33,7 @@ export const SidebarImages = ({ side }) => {
         <img
           src={require(`../../data/images${imagesArray[
             selectedImageIndex
-          ].substring(1)}`)}
+          ]}`)}
           alt={currentPath}
         />
       )}
