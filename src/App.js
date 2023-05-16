@@ -9,6 +9,7 @@ import { Contacts } from "./components/pages/Contacts";
 import { Skills } from "./components/pages/Skills";
 import { Projects } from "./components/pages/Projects";
 import { Home } from "./components/pages/Home";
+// import { ProjectCard } from "./components/pages/ProjectCard";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about-me" element={<AboutMe />} />
         <Route path="/projects" element={<Projects />} />
+        {/* <Route path="/projects/:project_name" element={<ProjectCard />} /> */}
         <Route path="/skills" element={<Skills />} />
         <Route path="/contacts" element={<Contacts />} />
       </Routes>

@@ -1,6 +1,7 @@
 [
   {
-    "icon": ["./images/api.png"],
+    "id": "games-api",
+    "icon": ["/api.png"],
     "name": "House of games API",
     "link": "https://board-games.onrender.com/api",
     "description": "I built an API for the purpose of accessing application data programmatically. Mimicking the building of a real world backend service, which then provides this information to the front end architecture. \\n This database is done in PSQL, and interacted with, by using node-postgres.",
@@ -9,7 +10,8 @@
     "source": "https://github.com/DianaMMartins/board-games"
   }, 
   {
-    "icon": ["./images/website.png", "./images/website1.png", "./images/website-reviews.png"],
+    "id": "gameboard-website",
+    "icon": ["/website.png", "/website1.png", "/website-reviews.png"],
     "name": "Game board reviews",
     "link": "https://adorable-genie-0699ec.netlify.app/",
     "description": "Game board reviews is a webpage.\\n Each review has user curated ratings and can be up or down voted using the API. Users can also add comments about a review.",
@@ -18,7 +20,8 @@
     "source": "https://github.com/DianaMMartins/Front-end-boardGames"
   },
   {
-    "icon": ["./images/game.mp4", "https://www.youtube.com/watch?v=lwu5JnxjGVM"],
+    "id": "dashing-dragon-game",
+    "icon": ["/game.mp4", "https://www.youtube.com/watch?v=lwu5JnxjGVM"],
     "name": "Dashing Dragons Game",
     "link": "https://dashing-dragon-fbfd86.netlify.app/",
     "description": "As a final project for northcoders, me and my group built a 2 player online co-op game.\\n We used node, phaser, socket.io, mongoose, express, react and jest to built both the back end and front end portions of our project. \\n Key feature: \\n able to play in real time with 2 players; \\n able to move players independently; \\n able to attack enemies in real time; \\wave system implemented, difficulty according to levels played.",
