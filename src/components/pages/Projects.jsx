@@ -6,7 +6,6 @@ export const Projects = () => {
       <h2>My projects</h2>
       <section className="scrollbox-inner">
         {projects.map((project) => {
-          console.log(project.icon);
           return (
             <article className="project-card">
               <a
