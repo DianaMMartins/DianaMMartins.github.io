@@ -57,9 +57,7 @@ export const SidebarImages = ({ side }) => {
             id="img1"
           />
         )
-        // add fade from img1 to img2 when img2 is visible
-        // img2 should be on top of img1
-      }
+         }
     </section>
   );
 };

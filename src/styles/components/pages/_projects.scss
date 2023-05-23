@@ -9,10 +9,14 @@
     width: 152%;
     transition: scroll ease-in-out;
   }
+  .scroll{
+    width: 100%;
+  }
   svg {
     margin-left: 38%;
-    margin-top: 28px;
+    // margin-top: 28px;
     position: absolute;
+    height: 90px;
   }
   #projects {
     display: flex;
