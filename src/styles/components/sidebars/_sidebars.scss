@@ -6,11 +6,21 @@
   float: right;
   position: absolute;
   right: 0;
+  #img2 {
+    float: right;
+    position: absolute;
+    right: 0;
+  }
 }
 .left {
   float: left;
   position: absolute;
   left: 0;
+  #img2 {
+    float: left;
+    position: absolute;
+    left: 0;
+  }
 }
 
 .sidebar-images {
@@ -21,11 +31,6 @@
     transition: opacity 0.5ms ease-in-out;
     z-index: 1;
   }
-
-  .absolute {
-    position: absolute;
-  }
-
   @keyframes fadeIn {
     0% {
       opacity: 0;
@@ -39,5 +44,3 @@
     animation: 1s ease-in-out 0s 1 fadeIn forwards;
   }
 }
-
-
