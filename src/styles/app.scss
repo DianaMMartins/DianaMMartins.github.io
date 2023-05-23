@@ -1,0 +1,96 @@
+@use "components/footer";
+@use "components/navbar";
+@use "components/pages/projects";
+@use "components/pages/skills";
+@use "components/pages/contacts";
+@use "components/sidebars/sidebars";
+@import "../styles/variables/variables";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background-color: $mainColor;
+  font-family: "Aldrich", sans-serif;
+  text-align: left;
+  color: $purple;
+  position: absolute;
+  display: flex;
+}
+
+.main {
+  width: 52%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 50px;
+  left: 22%;
+  position: relative;
+  margin: 0 35px;
+}
+
+h2 {
+  font-size: 48px;
+  margin: 0 0 62px 0;
+}
+
+p {
+  text-align: justify;
+  padding-left: 5px;
+}
+
+// ::-webkit-scrollbar {
+//   width: 18px;
+// }
+
+// ::-webkit-scrollbar-thumb {
+//   background-color: $purple;
+//   border-radius: 10px;
+//   padding: 10px;
+// }
+
+.scrollbox {
+  height: 400px;
+  overflow: auto;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1500px) {
+  .right {
+    display: none;
+  }
+  .main {
+    width: 100%;
+    margin: 0;
+    padding: 0 25px;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: $mainTransparency;
+  }
+  .navbar-title {
+    font-size: 2.5vw;
+  }
+}

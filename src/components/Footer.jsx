@@ -25,7 +25,6 @@ export const Footer = () => {
       <section className="copyrights">
         <p>Made with ❤ by Diana Martins © 2023</p>
       </section>
-
     </section>
   );
 };

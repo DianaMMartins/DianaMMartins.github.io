@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useLocation } from "react-router-dom";
-// import "../Styles/Components/Navbar.scss";
 
 const linksData = [
   { path: "/about-me", label: "About me" },

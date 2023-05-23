@@ -1,0 +1,12 @@
+@import "../../styles/variables/variables.scss";
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $purple;
+  margin: 0px 0 35px 0;
+}
+
+.footer a {
+  padding-right: 32px;
+}

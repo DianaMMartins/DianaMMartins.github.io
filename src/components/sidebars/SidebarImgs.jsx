@@ -1,6 +1,6 @@
 import images from "../../data/sidebar-images.json";
-import left from "../../data/images/leftSidebar/left.svg";
-import right from "../../data/images/rightSidebar/right.svg";
+import left from "../../data/images/leftSidebar/profileL.png";
+import right from "../../data/images/rightSidebar/profileR.png";
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 
@@ -20,9 +20,10 @@ export const SidebarImages = ({ side }) => {
         const validatedNextIndex =
           nextIndex < imagesArray.length ? nextIndex : 0;
         setSelectedImageIndex(validatedNextIndex);
-
-        clearInterval(intervalId);
-      }, 5000);
+      }, 20000); 
+      return () => {
+        clearInterval(intervalId); 
+      };
     }
   }, [currentPath, imagesArray, selectedImageIndex]);
 
@@ -37,6 +38,7 @@ export const SidebarImages = ({ side }) => {
               src={require(`../../data/images${imagesArray[pastImageIndex]}`)}
               alt={currentPath}
               className="absolute"
+              id="img1"
             />
             <img
               src={require(`../../data/images${imagesArray[selectedImageIndex]}`)}
@@ -45,13 +47,14 @@ export const SidebarImages = ({ side }) => {
               // https://stackoverflow.com/questions/63186710/how-to-trigger-a-css-animation-on-every-time-a-react-component-re-renders
               key={selectedImageIndex}
               className="fadeInAnimation"
+              id="img2"
             />
           </section>
         ) : (
           <img
             src={require(`../../data/images${imagesArray[0]}`)}
             alt={currentPath}
-            className="absolute"
+            id="img1"
           />
         )
         // add fade from img1 to img2 when img2 is visible

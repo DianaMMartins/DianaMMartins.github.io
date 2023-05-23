@@ -1,0 +1,22 @@
+@import "../../../styles/variables/variables.scss";
+.contacts {
+  a {
+    color: $purple;
+  }
+  #contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    font-size: 20px;
+  }
+  #contact-link {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: flex-end;
+    gap: 16px;
+  }
+  svg{
+    margin-left: 10px;
+  }
+}
