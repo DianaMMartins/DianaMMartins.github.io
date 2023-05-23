@@ -4,7 +4,7 @@
 @use "components/pages/skills";
 @use "components/pages/contacts";
 @use "components/sidebars/sidebars";
-@import "../styles/variables/variables";
+@use "../styles/variables/variables.scss" as *;
 
 * {
   margin: 0px;

@@ -20,7 +20,7 @@ export const SidebarImages = ({ side }) => {
         const validatedNextIndex =
           nextIndex < imagesArray.length ? nextIndex : 0;
         setSelectedImageIndex(validatedNextIndex);
-      }, 20000); 
+      }, 10000); 
       return () => {
         clearInterval(intervalId); 
       };
