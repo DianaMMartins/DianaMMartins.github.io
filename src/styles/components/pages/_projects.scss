@@ -10,7 +10,7 @@
     width: 152%;
     transition: scroll ease-in-out;
   }
-  .scroll{
+  .scroll {
     width: 100%;
   }
   svg {
@@ -57,5 +57,34 @@
         object-position: top;
       }
     }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projects.page {
+    h2 {
+      margin-top: 0px;
+    }
+    .scrollbox {
+      padding-right: 0;
+      width: 100%;
+      // height: 450px;
+      min-height: 550px;
+    }
+     svg{
+      margin-left: 30%;
+    }
+    #projects {
+      .project-card {
+        flex-direction: column;
+        .content {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+   
   }
 }

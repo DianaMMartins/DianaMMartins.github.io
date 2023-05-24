@@ -17,3 +17,16 @@
     list-style: none;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .skills {
+    ul {
+      height: inherit;
+      gap: 40px;
+      align-content: flex-start;
+    }
+    li img {
+      width: 14vw;
+    }
+  }
+}

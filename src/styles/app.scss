@@ -78,14 +78,37 @@ a:active {
   .main {
     width: 100%;
     margin: 0;
-    padding: 0 25px;
+    padding: 0 75px 0 50px;
     left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: $mainTransparency;
+    z-index: 2;
   }
   .navbar-title {
     font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 850px) {}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    font-size: 42px;
+    margin: 0 0 35px 0;
+  }
+  p{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .scrollbox{
+    height: 550px;
+  }
+  .right {
+    display: none;
+  }
+  .page {
+    height: 75%;
   }
 }
