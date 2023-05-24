@@ -16,7 +16,7 @@
   },
   {
     "path": "/contacts",
-    "left": ["/leftSidebar/brownieL.png", "/leftSidebar/riverL.png", "/leftSidebar/brigadeiroL.png"],
-    "right":[ "/rightSidebar/brownieR.png", "/rightSidebar/riverR.png", "/rightSidebar/brigadeiroR.png"]
+    "left": ["/leftSidebar/riverL.png", "/leftSidebar/brownieL.png", "/leftSidebar/brigadeiroL.png"],
+    "right":[ "/rightSidebar/riverR.png", "/rightSidebar/brownieR.png", "/rightSidebar/brigadeiroR.png"]
   }
 ]
