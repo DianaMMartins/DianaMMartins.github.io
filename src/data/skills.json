@@ -2,76 +2,99 @@
   {
     "name": "Javascript",
     "url": "/js.svg",
+    "link": "https://www.javascript.com/",
     "projects": ""
   },
   {
     "name": "Node.js",
-    "url": "/html.svg",
+    "url": "/nodejs.svg",
+    "link": "https://nodejs.org/en",
     "projects": ""
   },
   {
     "name": "Express",
     "url": "/express.svg",
+    "link": "https://expressjs.com/",
     "projects": ""
   },
   {
     "name": "PostgreSQL",
     "url": "/psql.svg",
+    "link": "https://www.postgresql.org/",
     "projects": ""
   },
   {
     "name": "MongoDB",
     "url": "/mongodb.svg",
+    "link": "https://www.mongodb.com/",
     "projects": ""
   },
   {
     "name": "insomnia",
     "url": "/insomnia.svg",
+    "link": "https://docs.insomnia.rest/",
     "projects": ""
   },
   {
     "name": "Jest",
     "url": "/jest.svg",
-    "projects": ""
-  },
-  {
-    "name": "Html",
-    "url": "/html.svg",
-    "projects": ""
-  },
-  {
-    "name": "CSS",
-    "url": "/css.svg",
+    "link": "https://jestjs.io/",
     "projects": ""
   },
   {
     "name": "React",
     "url": "/react.svg",
+    "link": "https://react.dev/",
+    "projects": ""
+  },
+  {
+    "name": "Html",
+    "url": "/html.svg",
+    "link": "https://html.com/",
+    "projects": ""
+  },
+  {
+    "name": "CSS",
+    "url": "/css.svg",
+    "link": "https://css-tricks.com/",
     "projects": ""
   },
   {
     "name": "Sass",
     "url": "/sass.svg",
+    "link": "https://sass-lang.com/",
     "projects": ""
   },
   {
     "name": "Visual Studio Code",
     "url": "/vscode.svg",
+    "link": "https://code.visualstudio.com/",
     "projects": ""
   },
   {
     "name": "Github",
     "url": "/github.svg",
+    "link": "https://github.com/",
     "projects": ""
   },
   {
     "name": "Phaser",
     "url": "/phaser.svg",
+    "link": "https://phaser.io/",
     "projects": ""
   },
   {
     "name": "Socket.io",
     "url": "/socketio.svg",
+    "link": "https://socket.io/",
+    "projects": ""
+  },
+
+  {
+    "name": "Figma",
+    "url": "/figma.svg",
+    "link": "https://www.figma.com",
     "projects": ""
   }
 ]
+

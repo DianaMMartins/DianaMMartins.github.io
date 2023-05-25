@@ -12,10 +12,13 @@
 }
 
 @media screen and (max-width: 500px) {
-  .footer{
+  .footer {
     margin: 0px 0 22px 0;
     flex-wrap: wrap;
     justify-content: center;
     gap: 14px;
+    #no-right-padding {
+      padding-right: 0px;
+    }
   }
 }

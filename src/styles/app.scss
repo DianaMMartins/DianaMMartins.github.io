@@ -72,18 +72,10 @@ a:active {
 }
 
 @media screen and (max-width: 1500px) {
-  .right {
-    display: none;
-  }
-  .main {
-    width: 100%;
-    margin: 0;
-    padding: 0 8% 0 6%;
-    left: 0;
+    .main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: $mainTransparency;
     z-index: 2;
   }
   .navbar-title {
@@ -91,18 +83,25 @@ a:active {
   }
 }
 
-@media screen and (max-width: 850px) {}
+@media screen and (max-width: 850px) {
+  .right {
+    display: none;
+  }
+  .main{
+    background-color: $mainTransparency;
+  }
+}
 
 @media screen and (max-width: 500px) {
   h2 {
     font-size: 42px;
     margin: 0 0 35px 0;
   }
-  p{
+  p {
     font-size: 16px;
     font-weight: bold;
   }
-  .scrollbox{
+  .scrollbox {
     height: 550px;
   }
   .right {

@@ -15,6 +15,7 @@ export const Footer = () => {
         </a>
         <a
           className="link-card"
+          id="no-right-padding"
           target="_blank"
           rel="noreferrer"
           href="https://www.linkedin.com/in/diana-martins/"
