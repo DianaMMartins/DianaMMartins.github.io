@@ -1,23 +1,13 @@
 [
   {
-    "id": "games-api",
-    "icon": ["/api.png"],
-    "name": "House of games API",
-    "link": "https://board-games.onrender.com/api",
-    "description": "I built an API for the purpose of accessing application data programmatically. This database is done in PSQL, and interacted with, by using node-postgres.",
-    "type": "API",
-    "status": "active",
-    "source": "https://github.com/DianaMMartins/board-games"
-  },
-  {
-    "id": "gameboard-website",
-    "icon": ["/website.png", "/website1.png", "/website-reviews.png"],
-    "name": "Game board reviews",
+    "id": "portfolio-website",
+    "icon": ["/portfolio.png"],
+    "name": "Portfolio website",
     "link": "https://adorable-genie-0699ec.netlify.app/",
-    "description": "Game board reviews is a webpage.\n Each review has user curated ratings and can be up or down voted using the API. Users can also add comments about a review.",
+    "description": "I created a website using React and Sass where I display my works and my professional journey, from starting in Design and Multimedia Animation, becoming a Pastry Chef in 3 different countries and now as a fullstack Developer.",
     "type": "Webpage",
     "status": "active",
-    "source": "https://github.com/DianaMMartins/Front-end-boardGames"
+    "source": "https://github.com/DianaMMartins/portfolio"
   },
   {
     "id": "dashing-dragon-game",
@@ -32,5 +22,25 @@
     "type": "2 Player online game",
     "status": "active",
     "source": "https://github.com/DianaMMartins/dashig_dragons_game"
+  },
+  {
+    "id": "gameboard-website",
+    "icon": ["/website.png", "/website1.png", "/website-reviews.png"],
+    "name": "Game board reviews",
+    "link": "https://adorable-genie-0699ec.netlify.app/",
+    "description": "Game board reviews is a webpage.\n Each review has user curated ratings and can be up or down voted using the API. Users can also add comments about a review.",
+    "type": "Webpage",
+    "status": "active",
+    "source": "https://github.com/DianaMMartins/Front-end-boardGames"
+  },
+  {
+    "id": "games-api",
+    "icon": ["/api.png"],
+    "name": "House of games API",
+    "link": "https://board-games.onrender.com/api",
+    "description": "I built an API for the purpose of accessing application data programmatically. This database is done in PSQL, and interacted with, by using node-postgres.",
+    "type": "API",
+    "status": "active",
+    "source": "https://github.com/DianaMMartins/board-games"
   }
 ]
