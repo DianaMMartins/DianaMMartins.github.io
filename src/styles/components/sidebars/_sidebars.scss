@@ -45,7 +45,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .right {
     display: none;
   }
@@ -64,7 +64,6 @@
       bottom: -93vh;
     }
     #img2 {
-     
       transition: opacity 0.5ms ease-in-out;
       position: absolute;
       bottom: -93vh;
