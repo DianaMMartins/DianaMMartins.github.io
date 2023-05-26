@@ -5,13 +5,17 @@ export const ProjectCard = ({ project }) => {
     <section className="project">
       <article className="project-card">
         <section className="content">
-          <a target="_blank" rel="noreferrer" href={project.link}>
-            <h3>{name}</h3>
-          </a>
+          <h3>{name}</h3>
+
           <p>{description}</p>
-          <a id="banner" target="_blank" rel="noreferrer" href={source}>
-            Source
-          </a>
+          <section className="links">
+            <a id="banner" target="_blank" rel="noreferrer" href={source}>
+              Source
+            </a>
+            <a id="banner" target="_blank" rel="noreferrer" href={project.link}>
+              Hosted
+            </a>
+          </section>
         </section>
 
         <img src={require(`../../data/images${icon[0]}`)} alt={name} />

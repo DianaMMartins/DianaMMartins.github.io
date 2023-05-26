@@ -6,11 +6,10 @@
   }
   .scrollbox {
     min-height: 625px;
-    padding-right: 415px;
-    width: 152%;
+    width: 100%;
     transition: scroll ease-in-out;
   }
-  .scroll{
+  .scroll {
     width: 100%;
   }
   svg {
@@ -38,15 +37,20 @@
         h3 {
           font-size: 26px;
           padding: 0;
-          color: $contrast;
+          color: $purple;
         }
         p {
           padding: 0 30px 0 0;
           text-align: left;
         }
-        #banner {
-          font-size: 24px;
-          color: $contrast;
+        .links {
+          display: flex;
+          flex-direction: row;
+          gap: 3vw;
+          #banner {
+            font-size: 24px;
+            color: $contrast;
+          }
         }
       }
 
@@ -55,6 +59,44 @@
         width: 50%;
         height: 220px;
         object-position: top;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .projects.page {
+    #projects {
+      .project-card {
+        img {
+          object-position: left;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects.page {
+    h2 {
+      margin-top: 0px;
+    }
+    .scrollbox {
+      padding-right: 0;
+      width: 100%;
+      min-height: 68vh;
+    }
+    svg {
+      margin-left: 34%;
+    }
+    #projects {
+      .project-card {
+        flex-direction: column;
+        .content {
+          width: 100%;
+        }
+        img {
+          width: 100%;
+        }
       }
     }
   }

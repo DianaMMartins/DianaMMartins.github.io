@@ -30,3 +30,34 @@ a:hover {
 a:active {
   text-decoration: none;
 }
+@media screen and (max-width: 1400px) {
+  .navbar {
+    .navbar-title {
+      font-size: 24px;
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .navbar {
+    .navbar-title {
+      font-size: 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    margin: 0 0 0 -6px;
+    justify-content: flex-start;
+    gap: 20px;
+    color: $purple;
+    width: 100vw;
+    height: 50px;
+    .navbar-title {
+      font-size: 16px;
+      text-align: center;
+      font-weight: bold;
+    }
+  }
+}

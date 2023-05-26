@@ -9,10 +9,12 @@ export const Skills = () => {
           {svgs.map((imageObj) => {
             return (
               <li key={imageObj.name}>
-                <img
-                  src={require(`../../data/images/svgSkills${imageObj.url}`)}
-                  alt={imageObj.name}
-                />
+                <a target="_blank" rel="noreferrer" href={imageObj.link}>
+                  <img
+                    src={require(`../../data/images/svgSkills${imageObj.url}`)}
+                    alt={imageObj.name}
+                  />
+                </a>
               </li>
             );
           })}

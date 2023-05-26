@@ -71,7 +71,21 @@ a:active {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1400px) {
+  .main {
+    width: 100%;
+    background-color: $mainTransparency;
+    margin: 0;
+    padding: 0 25vw;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 2;
+  }
+}
+
+@media screen and (max-width: 1000px) {
   .right {
     display: none;
   }
@@ -83,9 +97,27 @@ a:active {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    z-index: 2;
     background-color: $mainTransparency;
   }
-  .navbar-title {
-    font-size: 2.5vw;
+}
+
+@media screen and (max-width: 600px) {
+  h2 {
+    font-size: 42px;
+    margin: 0 0 35px 0;
+  }
+  p {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .scrollbox {
+    height: 550px;
+  }
+  .right {
+    display: none;
+  }
+  .page {
+    height: 75%;
   }
 }

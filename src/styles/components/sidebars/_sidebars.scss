@@ -44,3 +44,29 @@
     animation: 1s ease-in-out 0s 1 fadeIn forwards;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .right {
+    display: none;
+  }
+  .left {
+    float: left;
+    position: absolute;
+    left: 0;
+    height: 7vh;
+    .sidebar-images img {
+      height: 80vh;
+      padding: 0;
+      margin: 74px 0 0 0;
+      transition: opacity 0.5ms ease-in-out;
+      z-index: 0;
+      position: absolute;
+      bottom: -93vh;
+    }
+    #img2 {
+      transition: opacity 0.5ms ease-in-out;
+      position: absolute;
+      bottom: -93vh;
+    }
+  }
+}

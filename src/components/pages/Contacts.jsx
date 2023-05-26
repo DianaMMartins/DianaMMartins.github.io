@@ -15,7 +15,8 @@ export const Contacts = () => {
             rel="noreferrer"
             href="https://github.com/DianaMMartins"
           >
-            <p>Github</p> <Github />
+            <Github />
+            <p>Github</p> 
           </a>
           <a
             id="contact-link"
@@ -24,8 +25,8 @@ export const Contacts = () => {
             rel="noreferrer"
             href="https://www.linkedin.com/in/diana-martins/"
           >
-            <p>Linkedin</p>
             <Linkedin />
+            <p>Linkedin</p>
           </a>
           <a
             id="contact-link"
@@ -34,8 +35,8 @@ export const Contacts = () => {
             rel="noreferrer"
             href="mailto:dian_marq_mart@hotmail.com"
           >
-            <p>Email</p>
             <Email />
+            <p>Email</p>
           </a>
         </section>
       </section>

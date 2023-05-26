@@ -1,8 +1,12 @@
-[
+[{
+  "path": "/",
+  "left": ["/leftSidebar/profileL.png"],
+  "right":[ "/rightSidebar/profileR.png"]
+},
   {
     "path": "/about-me",
-    "left": ["/leftSidebar/profileL.png"],
-    "right":[ "/rightSidebar/profileR.png"]
+    "left": ["/leftSidebar/pastryL.png", "/leftSidebar/babaL.png", "/leftSidebar/trufflesL.png"],
+    "right":[ "/rightSidebar/pastry1R.png", "/rightSidebar/babaR.png", "/rightSidebar/trufflesR.png"]
   },
   {
     "path": "/projects",
