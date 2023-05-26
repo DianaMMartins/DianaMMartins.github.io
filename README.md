@@ -1,1 +1,1 @@
-[My portfolio website](dianammartins.github.io/public)
+[My portfolio website](dianammartins.github.io)
