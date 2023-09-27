@@ -1,10 +1,25 @@
+import { useState } from "react";
 import svgs from "../../data/skills.json";
+import {
+  isScrollOnElemAtBottomFn,
+  ScrollDownArrow,
+} from "../utils/ScrollDownArrow";
 
 export const Skills = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScrollVisibility = (e) => {
+    console.log(e, e.scrollHeight, e.scrollTop, e.clientHeight);
+    setIsVisible(!isScrollOnElemAtBottomFn(e));
+  };
+
   return (
     <section className="skills page">
-      <h2>Skills</h2>
-      <section className="scrollbox">
+      <section
+        className="scrollbox"
+        onScroll={(e) => handleScrollVisibility(e.target)}
+      >
+        <h2>Skills</h2>
         <ul className="scrollbox-inner">
           {svgs.map((imageObj) => {
             return (
@@ -20,6 +35,7 @@ export const Skills = () => {
           })}
         </ul>
       </section>
+      <ScrollDownArrow isVisible={isVisible} />
     </section>
   );
 };

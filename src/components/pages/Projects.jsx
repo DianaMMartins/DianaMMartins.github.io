@@ -1,46 +1,24 @@
 import { useState } from "react";
 import projects from "../../data/projects.json";
-import { ReactComponent as Arrow } from "../../data/images/arrow.svg";
 import { ProjectCard } from "../cards/ProjectCard";
+import {
+  isScrollOnElemAtBottomFn,
+  ScrollDownArrow,
+} from "../utils/ScrollDownArrow";
 
 export const Projects = () => {
   const [isVisible, setIsVisible] = useState(true);
-  const style = { opacity: isVisible ? 1 : 0 };
 
-  const handleScroll = (e) => {
-    const bottom =
-      e.target.scrollHeight - e.target.scrollTop === e.target.clientHeight;
-    bottom ? setIsVisible(false) : setIsVisible(true);
-  };
-
-  let smoothScrollIntervalId;
-
-  const handleHover = (e) => {
-    const elementToScroll = e.target.parentNode.previousSibling;
-    if (!elementToScroll) return;
-
-    const elementScrollHeight = elementToScroll.scrollHeight;
-    const scrollSpeed = 4; //(adjust this for scroll speed)
-
-    clearInterval(smoothScrollIntervalId);
-
-    smoothScrollIntervalId = setInterval(() => {
-      const reachedScrollableBottom =
-        elementToScroll.scrollTop + elementToScroll.offsetHeight ===
-        elementScrollHeight;
-
-      if (reachedScrollableBottom) {
-        clearInterval(smoothScrollIntervalId);
-      } else {
-        const direction = 1; // -1 goes up
-        elementToScroll.scrollTop += direction * scrollSpeed;
-      }
-    }, 30); //(adjust this for smoother or slower scrolling)
+  const handleScrollVisibility = (e) => {
+    setIsVisible(!isScrollOnElemAtBottomFn(e));
   };
 
   return (
     <section className="projects page">
-      <section className="scrollbox" onScroll={handleScroll}>
+      <section
+        className="scrollbox"
+        onScroll={(e) => handleScrollVisibility(e.target)}
+      >
         <h2>My projects</h2>
         <section className="scrollbox-inner" id="projects">
           {projects.map((project) => (
@@ -48,16 +26,7 @@ export const Projects = () => {
           ))}
         </section>
       </section>
-      <section
-        style={style}
-        onMouseOver={handleHover}
-        onMouseOut={() => {
-          clearInterval(smoothScrollIntervalId);
-        }}
-        className="scroll"
-      >
-        <Arrow />
-      </section>
+      <ScrollDownArrow isVisible={isVisible} />
     </section>
   );
 };

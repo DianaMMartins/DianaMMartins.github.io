@@ -1,16 +1,18 @@
 @use "../../../styles/variables/variables.scss" as *;
 .skills {
+  h2 {
+    text-align: center;
+  }
   ul {
     margin: 0;
     padding: 0;
     width: inherit;
-    font-size: 18px;
     color: $purple;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 68px;
-    justify-content: space-between;
+    justify-content: center;
   }
 
   li {
@@ -22,7 +24,7 @@
   .skills {
     ul {
       height: inherit;
-      gap: 40px;
+      gap: 4%;
       align-content: flex-start;
     }
     li img {

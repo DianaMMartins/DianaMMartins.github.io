@@ -34,7 +34,6 @@ export const SidebarImages = ({ side }) => {
         setSelectedImageIndex(validatedNextIndex);
       }, 9000);
       return () => {
-        console.log(clearInterval);
         clearInterval(intervalId);
       };
     }

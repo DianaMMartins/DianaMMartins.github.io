@@ -3,7 +3,7 @@
     "id": "portfolio-website",
     "icon": ["/portfolio.png"],
     "name": "Portfolio website",
-    "link": "https://adorable-genie-0699ec.netlify.app/",
+    "link": "https://dianammartins.github.io",
     "description": "I created a website using React and Sass where I display my works and my professional journey, from starting in Design and Multimedia Animation, becoming a Pastry Chef in 3 different countries and now as a fullstack Developer.",
     "type": "Webpage",
     "status": "active",

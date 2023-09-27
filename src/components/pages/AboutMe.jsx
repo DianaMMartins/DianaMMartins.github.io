@@ -1,8 +1,8 @@
 export const AboutMe = () => {
   return (
     <section className="about-me page">
-      <h2>Diana Martins</h2>
       <section className="scrollbox">
+        <h2>Diana Martins</h2>
         <p>
           I'm a software developer with a unique perspective on design and user
           experience. My journey into coding began when I ventured on creating

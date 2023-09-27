@@ -5,8 +5,8 @@ import { ReactComponent as Email } from "../../data/images/email.svg";
 export const Contacts = () => {
   return (
     <section className="contacts page">
-      <h2>Contact me</h2>
       <section className="scrollbox">
+        <h2>Contact me</h2>
         <section className="scrollbox-inner" id="contacts">
           <a
             id="contact-link"
@@ -16,7 +16,7 @@ export const Contacts = () => {
             href="https://github.com/DianaMMartins"
           >
             <Github />
-            <p>Github</p> 
+            <p>Github</p>
           </a>
           <a
             id="contact-link"

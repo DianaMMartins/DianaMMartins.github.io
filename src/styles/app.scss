@@ -10,6 +10,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-size: 20px;
 }
 
 .app {
@@ -22,34 +23,56 @@
   color: $purple;
   position: absolute;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .main {
-  width: 52%;
+  width: 44%;
   display: flex;
   flex-direction: column;
+  position: absolute;
+  z-index: 5;
+  flex-wrap: nowrap;
+  height: 100%;
   justify-content: space-between;
-  padding: 0 50px;
-  left: 22%;
-  position: relative;
-  margin: 0 35px;
+}
+
+.page {
+  width: 100%;
+  height: 75vh;
+  margin: 13vh 0;
+  position: absolute;
+  .scroll {
+    width: 100%;
+    position: relative;
+    padding: 33px 0;
+    svg {
+      margin-left: 38%;
+      position: absolute;
+    }
+  }
 }
 
 h2 {
-  font-size: 48px;
-  margin: 0 0 62px 0;
+  font-size: 2rem;
+  margin: 2% 0 6% 0;
+  text-align: center;
 }
 
 p {
   text-align: justify;
   padding-left: 5px;
+  padding-right: 5px;
 }
 ::-webkit-scrollbar {
   display: none;
 }
 
 .scrollbox {
-  height: 400px;
+  max-height: 72vh;
+  position: relative;
+  transition: scroll ease-in-out;
   overflow: auto;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -76,12 +99,15 @@ a:active {
     width: 100%;
     background-color: $mainTransparency;
     margin: 0;
-    padding: 0 25vw;
+    padding: 0 28vw;
     left: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     z-index: 2;
+  }
+  .page {
+    width: 100vw;
   }
 }
 
@@ -106,6 +132,7 @@ a:active {
   h2 {
     font-size: 42px;
     margin: 0 0 35px 0;
+    text-align: left;
   }
   p {
     font-size: 16px;
@@ -113,6 +140,8 @@ a:active {
   }
   .scrollbox {
     height: 550px;
+    width: 100vw;
+    margin: 12px;
   }
   .right {
     display: none;

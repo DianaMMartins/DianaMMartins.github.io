@@ -1,8 +1,8 @@
 export const Home = () => {
   return (
     <section className="home page">
-      <h2>Hello World</h2>
       <section className="scrollbox">
+        <h2>Hello World</h2>
         <p className="scrollbox-inner">
           My name is Diana Martins and I'm a junior full stack developer, a
           designer, pastry chef and plant mum; <br />

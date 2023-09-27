@@ -2,21 +2,7 @@
 
 .projects.page {
   h2 {
-    margin-top: 57px;
-  }
-  .scrollbox {
-    min-height: 625px;
-    width: 100%;
-    transition: scroll ease-in-out;
-  }
-  .scroll {
-    width: 100%;
-  }
-  svg {
-    margin-left: 38%;
-    // margin-top: 28px;
-    position: absolute;
-    height: 90px;
+    text-align: center;
   }
   #projects {
     display: flex;
@@ -27,7 +13,9 @@
       border-bottom: 1px solid $purple;
       display: flex;
       flex-direction: row;
+      align-items: center;
       margin-bottom: -40px;
+      min-width: 600px;
       .content {
         width: 50%;
         display: flex;
@@ -63,10 +51,16 @@
     }
   }
 }
+
 @media screen and (max-width: 1000px) {
   .projects.page {
     #projects {
       .project-card {
+        .content{
+          p{
+            font-weight: 80%;
+          }
+        }
         img {
           object-position: left;
         }
